@@ -5,8 +5,20 @@
 function register_ai_child_starter_theme_sidebars() {
 	$items = [
 		'Header: Logo',
-		'Home: Slider',
+		'Fixed Header: Logo',
+		'Home: Slideshow',
+		'Home: Tagline',
+		'Home: Social Media',
+		'Home: About',
+		'Home: Meet The Team',
+		'Home: Featured Communities',
+		'Home: Testimonials',
+		'Home: Latest Blog',
+		'Home: Follow Social Media',
 		'Footer: Form',
+		'Footer: Logo',
+		'Footer: Contact Info',
+		'Footer: Disclaimer',
 	];
 
 	foreach ($items as $item) {
@@ -63,4 +75,3 @@ add_filter( 'nav_menu_link_attributes', 'ai_starter_theme_add_menu_link_attribut
 if ( ! isset( $content_width ) ) {
 	$content_width = 960;
 }
-add_filter( 'show_admin_bar', '__return_false' );

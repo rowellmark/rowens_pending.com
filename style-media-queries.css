@@ -257,6 +257,9 @@
         width: 100%;
     }
 
+	.bgSets .bgSets-accentController::after {
+		transform: scaleY(1) !important;
+	}
 	.footer .footer--ContactInfo li {
 		padding: 10px 0;
 		font-size: 16px;
