@@ -23,7 +23,7 @@
 		<div class="header-container default-container default-padding">
 			<div class="logo">
 				<a href="<?php echo esc_url( home_url() ) ?>" class="site-name">
-					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/logo.png" alt="Trelleborg Development" loading="lazy" class="h-auto block w-100" width="211" height="118"> 
+					<img src="<?= do_shortcode('[stylesheet_directory]')?>/images/logo.png" alt="Trelleborg Development" loading="lazy" class="h-auto block w-100" width="283" height="157"> 
 				</a>
 			</div>
 
